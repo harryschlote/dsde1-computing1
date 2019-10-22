@@ -1,7 +1,7 @@
 '''
 toys.py
 
-Simple toy functions to get really really comfortable working 
+Simple toy functions to get really proper really comfortable working 
 with functions.
 '''
 
