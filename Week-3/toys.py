@@ -15,7 +15,7 @@ def inc(a):
 # write a function that adds 1
 # to the input and returns the result
 def inc_return(a):
-    return a + 2
+    return a + 1
 
 
 # write a function that adds
