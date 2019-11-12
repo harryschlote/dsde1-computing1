@@ -15,6 +15,19 @@ with default values.
 # if both user_name and place are provided
 # it returns 'Hello, <user_name>, and welcome to <place>
 
+def welcome_message(user_name='', place=''):
+    returned_message = 'Hello{} and welcome{}'
+    user_name2 = ', ' + user_name + ','
+    place2 = ' to ' + place
+    if user_name and place != '':
+        return returned_message.format(user_name2, place2)
+    elif user_name != '':
+        return returned_message.format(user_name2, place)
+    elif place != '':
+        return returned_message.format(user_name, place2)
+    else:
+        return 'Hello and welcome'
+
 
 # Create a function called list_average()
 # without using any libraries to do the maths for you 

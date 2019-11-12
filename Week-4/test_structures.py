@@ -113,7 +113,7 @@ class TestStructures(unittest.TestCase):
         '''
         Test 
         '''
-        result = st.value_exists({"ind1": "val1", "ind2": "val2"} , "val3")
+        result = st.index_exists({"ind1": "val1", "ind2": "val2"} , "val3")
         self.assertIs(result, False)
 
 
